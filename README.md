@@ -1,78 +1,138 @@
-# ☕ Java Design Patterns
+# ☕ Java Design Patterns Project
 
 ![Java Design Patterns](https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop)
 
 ---
 
-## 📚 Sobre o projeto | About the project
+## 📚 About the project | Sobre o projeto
 
 **PT-BR:**  
-Este repositório contém exemplos práticos de padrões de projeto (Design Patterns) aplicados em Java, com foco em boas práticas de desenvolvimento, organização de código e reutilização.
+Este projeto foi desenvolvido com o objetivo de estudar e aplicar os principais Design Patterns (GoF) utilizando Java, organizando o código de forma profissional e separada por categorias.
 
 **EN:**  
-This repository contains practical examples of software design patterns implemented in Java, focusing on best development practices, code organization, and code reusability.
+This project was developed to study and apply the main GoF Design Patterns using Java, with a clean and professional structure separated by categories.
 
 ---
 
-## 🚀 Tecnologias utilizadas | Technologies used
+## 🏗️ Project Architecture | Arquitetura do projeto
 
-- Java
-- Eclipse IDE
-- Git
-- GitHub
+The project is organized into three main categories:
 
----
-
-## 🧩 Design Patterns abordados | Covered Design Patterns
+### 🟢 Creational Patterns
+Responsible for object creation.
 
 - Singleton
+
+### 🔵 Behavioral Patterns
+Responsible for communication between objects.
+
 - Strategy
+
+### 🟣 Structural Patterns
+Responsible for class composition and structure.
+
 - Facade
-- Observer
-- Builder
-- Factory
-- Adapter
 
 ---
 
-## 📂 Estrutura do projeto | Project structure
+## 🧠 Design Patterns implemented
+
+### 🔹 Singleton
+Ensures a class has only one instance and provides a global access point.
+
+- SingletonEager
+- SingletonLazy
+- SingletonLazyHolder
+
+---
+
+### 🔹 Strategy
+Defines a family of algorithms and allows them to be interchangeable.
+
+- Comportamento (interface)
+- ComportamentoNormal
+- ComportamentoDefensivo
+- ComportamentoOfensivo
+- Robo (context)
+
+---
+
+### 🔹 Facade
+Provides a simplified interface to a complex subsystem.
+
+- Facade
+- CepApi (subsystem)
+- CrmService (subsystem)
+
+---
+
+## 🏢 System modules | Módulos do sistema
+
+These modules simulate external services:
+
+### CRM System
+- Responsible for customer management
+
+### CEP API
+- Responsible for address lookup
+
+---
+
+## 🚀 How to run | Como executar
+
+**PT-BR:**
+1. Abra o projeto no Eclipse IDE
+2. Execute a classe `Main`
+3. Ou execute as classes de exemplo de cada pattern
+
+**EN:**
+1. Open the project in Eclipse IDE
+2. Run the `Main` class
+3. Or run each pattern example class individually
+
+---
+
+## 📂 Project structure
 
 ```bash
 src/
- ├── singleton/
- ├── strategy/
- ├── facade/
- ├── builder/
- └── observer/
+ └── com.lincoln
+
+     ├── designpatterns/
+     │    ├── creational/
+     │    │     └── singleton/
+     │    ├── behavioral/
+     │    │     └── strategy/
+     │    ├── structural/
+     │          └── facade/
+
+     ├── system/
+     │    ├── crm/
+     │    └── cep/
+
+     └── app/
+          └── Main.java
 ```
 
 ---
 
-## ⚙️ Como executar | How to run
+## 🎯 Learning goals | Objetivos de aprendizado
 
 **PT-BR:**
-1. Clone o repositório:
-```bash
-git clone git@github.com:lincolnbuk/Java-design-patterns.git
-```
-
-2. Abra o projeto no Eclipse IDE  
-3. Execute as classes de exemplo
-
----
+- Entender padrões de projeto na prática
+- Melhorar organização de código
+- Aplicar princípios de POO
+- Simular arquitetura real de sistemas
 
 **EN:**
-1. Clone the repository:
-```bash
-git clone git@github.com:lincolnbuk/Java-design-patterns.git
-```
-
-2. Open the project in Eclipse IDE  
-3. Run the example classes
+- Understand design patterns in practice
+- Improve code organization
+- Apply OOP principles
+- Simulate real system architecture
 
 ---
 
-## 👨‍💻 Autor | Author
+## 👨‍💻 Author | Autor
 
 **Lincoln Buk**
 
@@ -80,10 +140,10 @@ GitHub: https://github.com/lincolnbuk
 
 ---
 
-## ⭐ Objetivo | Goal
+## ⭐ Final note | Observação final
 
 **PT-BR:**  
-Projeto criado para fins educacionais, com o objetivo de praticar e entender Design Patterns em Java.
+Este projeto tem fins educacionais e representa a evolução do entendimento de arquitetura de software em Java.
 
 **EN:**  
-This project was created for educational purposes to practice and understand Design Patterns in Java.
+This project is for educational purposes and represents the evolution of software architecture understanding in Java.
