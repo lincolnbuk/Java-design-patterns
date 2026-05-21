@@ -1,6 +1,6 @@
 # ☕ Java Design Patterns
 
-![Java Design Patterns](https://miro.medium.com/v2/resize:fit:1358/1%2ATdmaSHjjxUKa32X1M0uoq1A.jpeg)
+![Java Design Patterns](https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop)
 
 Projeto desenvolvido para estudo e implementação dos principais Design Patterns utilizando Java.
 
