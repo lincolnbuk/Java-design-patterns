@@ -4,95 +4,112 @@
 
 ---
 
-## 📚 About the project | Sobre o projeto
+## 📚 Sobre o projeto | About the project
 
 **PT-BR:**  
-Este projeto foi desenvolvido com o objetivo de estudar e aplicar os principais Design Patterns (GoF) utilizando Java, organizando o código de forma profissional e separada por categorias.
+Este projeto foi desenvolvido para estudar e aplicar os principais Design Patterns (GoF) utilizando Java, com uma estrutura organizada e profissional.
 
 **EN:**  
-This project was developed to study and apply the main GoF Design Patterns using Java, with a clean and professional structure separated by categories.
+This project was developed to study and apply the main GoF Design Patterns using Java, with a clean and professional structure.
 
 ---
 
-## 🏗️ Project Architecture | Arquitetura do projeto
+## 🏗️ Arquitetura do projeto | Project architecture
 
-The project is organized into three main categories:
+**PT-BR:**  
+O projeto está organizado em três categorias principais de Design Patterns.
 
-### 🟢 Creational Patterns
-Responsible for object creation.
+**EN:**  
+The project is organized into three main Design Pattern categories.
+
+### 🟢 Criacionais | Creational
+**PT-BR:** Responsáveis pela criação de objetos.  
+**EN:** Responsible for object creation.
 
 - Singleton
 
-### 🔵 Behavioral Patterns
-Responsible for communication between objects.
+---
+
+### 🔵 Comportamentais | Behavioral
+**PT-BR:** Responsáveis pela comunicação entre objetos.  
+**EN:** Responsible for communication between objects.
 
 - Strategy
 
-### 🟣 Structural Patterns
-Responsible for class composition and structure.
+---
+
+### 🟣 Estruturais | Structural
+**PT-BR:** Responsáveis pela composição e estrutura das classes.  
+**EN:** Responsible for class composition and structure.
 
 - Facade
 
 ---
 
-## 🧠 Design Patterns implemented
+## 🧠 Design Patterns implementados | Implemented Design Patterns
 
 ### 🔹 Singleton
-Ensures a class has only one instance and provides a global access point.
 
-- SingletonEager
-- SingletonLazy
-- SingletonLazyHolder
+**PT-BR:** Garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso.  
+**EN:** Ensures a class has only one instance and provides a global access point.
+
+- SingletonEager  
+- SingletonLazy  
+- SingletonLazyHolder  
 
 ---
 
 ### 🔹 Strategy
-Defines a family of algorithms and allows them to be interchangeable.
 
-- Comportamento (interface)
-- ComportamentoNormal
-- ComportamentoDefensivo
-- ComportamentoOfensivo
-- Robo (context)
+**PT-BR:** Permite que diferentes algoritmos sejam intercambiáveis em tempo de execução.  
+**EN:** Allows different algorithms to be interchangeable at runtime.
+
+- Comportamento (interface / interface)  
+- ComportamentoNormal  
+- ComportamentoDefensivo  
+- ComportamentoOfensivo  
+- Robo (contexto / context)  
 
 ---
 
 ### 🔹 Facade
-Provides a simplified interface to a complex subsystem.
 
-- Facade
-- CepApi (subsystem)
-- CrmService (subsystem)
+**PT-BR:** Fornece uma interface simples para um subsistema complexo.  
+**EN:** Provides a simple interface to a complex subsystem.
+
+- Facade  
+- CepApi (subsistema / subsystem)  
+- CrmService (subsistema / subsystem)  
 
 ---
 
-## 🏢 System modules | Módulos do sistema
+## 🏢 Módulos do sistema | System modules
 
-These modules simulate external services:
-
-### CRM System
-- Responsible for customer management
+### CRM
+**PT-BR:** Responsável pelo gerenciamento de clientes  
+**EN:** Responsible for customer management
 
 ### CEP API
-- Responsible for address lookup
+**PT-BR:** Responsável pela consulta de endereços  
+**EN:** Responsible for address lookup
 
 ---
 
-## 🚀 How to run | Como executar
+## 🚀 Como executar | How to run
 
 **PT-BR:**
-1. Abra o projeto no Eclipse IDE
-2. Execute a classe `Main`
-3. Ou execute as classes de exemplo de cada pattern
+1. Abra o projeto no Eclipse IDE  
+2. Execute a classe `Main`  
+3. Ou execute as classes de cada Design Pattern individualmente  
 
 **EN:**
-1. Open the project in Eclipse IDE
-2. Run the `Main` class
-3. Or run each pattern example class individually
+1. Open the project in Eclipse IDE  
+2. Run the `Main` class  
+3. Or run each Design Pattern class individually  
 
 ---
 
-## 📂 Project structure
+## 📂 Estrutura do projeto | Project structure
 
 ```bash
 src/
@@ -116,34 +133,35 @@ src/
 
 ---
 
-## 🎯 Learning goals | Objetivos de aprendizado
+## 🎯 Objetivos de aprendizado | Learning goals
 
 **PT-BR:**
-- Entender padrões de projeto na prática
+- Aprender Design Patterns na prática
 - Melhorar organização de código
 - Aplicar princípios de POO
-- Simular arquitetura real de sistemas
+- Simular arquitetura de sistemas reais
 
 **EN:**
-- Understand design patterns in practice
+- Learn Design Patterns in practice
 - Improve code organization
 - Apply OOP principles
 - Simulate real system architecture
 
 ---
 
-## 👨‍💻 Author | Autor
+## 👨‍💻 Autor | Author
 
-**Lincoln Buk**
+**PT-BR:** Lincoln Buk  
+**EN:** Lincoln Buk  
 
-GitHub: https://github.com/lincolnbuk
+GitHub: https://github.com/lincolnbuk  
 
 ---
 
-## ⭐ Final note | Observação final
+## ⭐ Observação final | Final note
 
 **PT-BR:**  
-Este projeto tem fins educacionais e representa a evolução do entendimento de arquitetura de software em Java.
+Este projeto tem fins educacionais e demonstra evolução em arquitetura de software.
 
 **EN:**  
-This project is for educational purposes and represents the evolution of software architecture understanding in Java.
+This project is for educational purposes and demonstrates software architecture learning progress.
